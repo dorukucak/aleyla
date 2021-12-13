@@ -1,23 +1,28 @@
-import H5 from '@material-tailwind/react/Heading5';
-import LeadText from '@material-tailwind/react/LeadText';
-import Icon from '@material-tailwind/react/Icon';
+import H5 from "@material-tailwind/react/Heading5";
+import LeadText from "@material-tailwind/react/LeadText";
+import Icon from "@material-tailwind/react/Icon";
 
 export default function DefaultFooter() {
-    return (
-        <>
-            <footer className="relative bg-gray-100 pt-8 pb-6">
-                <div className="container max-w-7xl mx-auto px-4">
-                    <div className="flex flex-wrap text-center lg:text-left pt-6">
-                        <div className="w-full lg:w-6/12 px-4">
-                            <div className="flex w-full items-center">
-                            <H5 color="gray" className="tracking-wider">ALEYLA</H5><h5 className="text-lg font-thin leading-none tracking-wide item-center">SOFTWARE</h5>
-                            </div>
-                            <div className="-mt-4">
-                                <LeadText color="blueGray">
-                                    Your story starts with us. Be our partner. Contact us now!
-                                </LeadText>
-                            </div>
-                            {/* <div className="flex gap-2 mt-6 md:justify-start md:mb-0 mb-8 justify-center">
+  return (
+    <>
+      <footer className="relative bg-gray-100 pt-8 pb-6">
+        <div className="container max-w-7xl mx-auto px-4">
+          <div className="flex flex-wrap text-center lg:text-left pt-6">
+            <div className="w-full lg:w-6/12 px-4">
+            <div className="flex w-full items-center">
+              <H5 color="black" className="tracking-wider">
+                ALEYLA
+              </H5>
+              <h5 className="text-lg text-black font-thin leading-none tracking-wide item-center pb-0.5">
+                SOFTWARE
+              </h5>
+            </div>
+              <div className="-mt-4">
+                <LeadText color="blueGray">
+                  Your story starts with us. Be our partner. Contact us now!
+                </LeadText>
+              </div>
+              {/* <div className="flex gap-2 mt-6 md:justify-start md:mb-0 mb-8 justify-center">
                                 <a
                                     href="https://www.facebook.com/CreativeTim"
                                     className="grid place-items-center bg-white text-blue-600 shadow-md font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none"
@@ -85,8 +90,8 @@ export default function DefaultFooter() {
                                     />
                                 </a>
                             </div> */}
-                        </div>
-                        {/* <div className="w-full lg:w-6/12 px-4">
+            </div>
+            {/* <div className="w-full lg:w-6/12 px-4">
                             <div className="flex flex-wrap items-top">
                                 <div className="w-full lg:w-4/12 px-4 ml-auto md:mb-0 mb-8">
                                     <span className="block uppercase text-gray-900 text-sm font-serif font-medium mb-2">
@@ -183,17 +188,17 @@ export default function DefaultFooter() {
                                 </div>
                             </div>
                         </div> */}
-                    </div>
-                    <hr className="my-6 border-gray-300" />
-                    <div className="flex flex-wrap items-center md:justify-between justify-center">
-                        <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-                            <div className="text-sm text-gray-700 font-medium py-1">
-                                Copyright © {new Date().getFullYear()} ALEYLA Software Ltd.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </>
-    );
+          </div>
+          <hr className="my-6 border-gray-300" />
+          <div className="flex flex-wrap items-center md:justify-between justify-center">
+            <div className="w-full md:w-4/12 px-4 mx-auto text-center">
+              <div className="text-sm text-gray-700 font-medium py-1">
+                Copyright © {new Date().getFullYear()} ALEYLA Software Ltd.
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </>
+  );
 }

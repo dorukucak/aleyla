@@ -25,7 +25,7 @@ export default function DefaultNavbar({ goDown }) {
               <H5 color="white" className="tracking-wider">
                 ALEYLA
               </H5>
-              <h5 className="text-lg text-white font-thin leading-none tracking-wide item-center">
+              <h5 className="text-lg text-white font-thin leading-none tracking-wide item-center pb-0.5">
                 SOFTWARE
               </h5>
             </div>
