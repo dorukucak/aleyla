@@ -17,7 +17,6 @@ function App() {
             <Route exact path="/profile" component={Profile} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/register" component={Register} />
-            <Redirect from="*" to="/" />
         </Switch>
     );
 }
